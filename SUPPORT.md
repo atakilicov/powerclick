@@ -4,7 +4,6 @@
 
 **PowerClick doesn't appear in Finder's right-click menu.**
 The Finder extension has to be enabled once. Open **System Settings > Privacy & Security > Extensions > Finder Extensions** and make sure PowerClick is turned on. If it isn't listed, quit PowerClick from the menu bar, open it again, and check once more.
-<!-- TODO: confirm the exact path on macOS 13, 14, 15 and 26 (same as README). -->
 
 **The menu bar icon shows an orange dot.**
 The extension is inactive. Choose "Refresh Status" in the menu bar popover. If the dot stays orange, check that the extension is still enabled in System Settings. macOS sometimes turns extensions off after a system update, and turning it back on fixes it.
