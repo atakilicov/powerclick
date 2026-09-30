@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/atakilicov/powerclick/discussions/categories/q-a
+    about: Setup help and how-to questions go in Discussions.
+  - name: Email support
+    url: https://github.com/atakilicov/powerclick/blob/main/SUPPORT.md#email
+    about: For anything you'd rather not post publicly.
+  - name: Support page
+    url: https://powerclick.kilicov.dev/support?utm_source=github&utm_medium=issue_template
+    about: Setup help and troubleshooting on the PowerClick website.

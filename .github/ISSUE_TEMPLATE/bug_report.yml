@@ -1,0 +1,83 @@
+name: Bug report
+description: Something in PowerClick doesn't work the way it should.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Please search [existing issues](https://github.com/atakilicov/powerclick/issues?q=is%3Aissue) first, in case it's already known.
+
+        Issues are public, so leave out file names, paths and anything else you'd rather keep private. For private matters, see [SUPPORT.md](https://github.com/atakilicov/powerclick/blob/main/SUPPORT.md#email).
+  - type: input
+    id: version
+    attributes:
+      label: PowerClick version
+      description: Select PowerClick in your Applications folder and press Command-I.
+      placeholder: "2.2.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: macos
+    attributes:
+      label: macOS version
+      description: Apple menu > About This Mac.
+      options:
+        - macOS 27
+        - macOS 26 Tahoe
+        - macOS 15 Sequoia
+        - macOS 14 Sonoma
+        - macOS 13 Ventura
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: mac-type
+    attributes:
+      label: Mac type
+      description: In About This Mac, "Chip" means Apple silicon and "Processor" means Intel.
+      options:
+        - Apple silicon
+        - Intel
+    validations:
+      required: true
+  - type: dropdown
+    id: location
+    attributes:
+      label: Where does the file live?
+      description: Pick every location where you see the problem.
+      multiple: true
+      options:
+        - On my Mac (local disk)
+        - iCloud Drive
+        - Dropbox
+        - Google Drive
+        - OneDrive
+        - Box
+        - External drive
+        - Network share
+        - Not related to a file
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do, step by step?
+      placeholder: |
+        1. Right-click an empty area of a Finder window
+        2. Choose PowerClick > New File > ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot or recording
+      description: Drag an image or a short screen recording into this box.
