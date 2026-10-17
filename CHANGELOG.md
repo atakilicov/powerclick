@@ -2,6 +2,32 @@
 
 All notable changes to PowerClick, newest first. Versions and dates follow the Mac App Store version history. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2.5.0] - Unreleased
+
+In App Store review.
+
+### Added
+
+- Convert from the Finder right-click menu. Photos (HEIC, PNG, WebP, AVIF, TIFF, GIF, BMP, PSD, camera RAW) to JPEG, PNG, HEIC, AVIF, TIFF, GIF, BMP or WebP. Any image to an ICO or ICNS app icon. Video (MOV, MP4, M4V, AVI) to MP4 in H.264 or HEVC at 1080p or 720p, to an animated GIF, or to just the audio. Audio (MP3, WAV, AIFF, FLAC, OGG, Opus, M4A) to AAC, Apple Lossless, FLAC, WAV or Opus. Word, RTF, OpenDocument, HTML and text into each other or into PDF. Markdown to PDF, HTML or Word. PDF to images or text.
+- Compress for sharing: shrink videos, photos and PDFs to fit Discord (10 MB), email (25 MB), or to half their size.
+- QR toolkit. Scan QR on Screen from ShortClick or a shortcut: drag around a code, click one, or press Return for all of them (macOS 14 or later; works on external displays). Read QR & Barcodes in images and PDFs. Wi-Fi, contact and event codes are understood. Links are checked on your Mac for phishing tricks. Create QR codes for links, text or Wi-Fi and save them as PNG.
+- Translate selected text from Services > Translate with PowerClick, then copy or replace it (macOS 15 or later, Apple's on-device Translation).
+- Transcribe audio and video to a text file, subtitles (.srt) or the clipboard (macOS 26 or later, Apple's on-device speech models).
+- Background jobs: conversions, compression, large copies and transcriptions run in the background with progress and Cancel in the menu bar.
+- Ten new languages: Polish, Czech, Ukrainian, Hungarian, Romanian, Greek, Swedish, Danish, Norwegian and Portuguese (Portugal), for 23 in total.
+
+### Changed
+
+- New File from Clipboard picks the file type from the content: .json, .csv, .md, .html, .webloc, .txt or .png.
+- Undo Last Action moves files to the Trash instead of deleting them, leaves alone anything you edited since, and expires after 24 hours.
+- Copy To and Move To no longer freeze the app on large copies.
+
+### Fixed
+
+- ShortClick's Command + Shift + right-click trigger starts working as soon as Input Monitoring is granted.
+- PowerClick shows a message inside the app when notifications are turned off, instead of finishing silently.
+- Many translation and stability fixes.
+
 ## [2.2.0] - 2026-07-26
 
 ### Added
