@@ -59,7 +59,7 @@ Select text in almost any app and choose **Services > Translate with PowerClick*
 
 ### ShortClick
 
-Press a shortcut, or hold Command and Shift and right-click, and a radial menu opens under the cursor, anywhere in macOS. Flick toward an item to launch a favorite app, copy a snippet, reuse something from your clipboard history, run one of your Shortcuts or scan a QR code on screen.
+Press your keyboard shortcut and a radial menu opens under the cursor, anywhere in macOS. Hold the shortcut and point at an item to launch a favorite app, copy a snippet, reuse something from your clipboard history, run one of your Shortcuts or scan a QR code on screen.
 
 ### New File
 

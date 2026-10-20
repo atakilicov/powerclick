@@ -25,10 +25,10 @@ In App Store review.
 ### Removed
 
 - Window snapping (ShortClick's Windows ring), auto-paste of snippets, and picking a Shortcut from a list. They relied on sandbox exceptions that the Mac App Store no longer allows. Snippets are copied for you to paste with ⌘V, and automations run a Shortcut by its name.
+- The Command + Shift + right-click trigger for ShortClick, which needed Input Monitoring. The ring opens from your keyboard shortcut; hold the shortcut, point at an item and release to pick it.
 
 ### Fixed
 
-- ShortClick's Command + Shift + right-click trigger starts working as soon as Input Monitoring is granted.
 - PowerClick shows a message inside the app when notifications are turned off, instead of finishing silently.
 - Many translation and stability fixes.
 
