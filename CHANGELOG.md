@@ -2,9 +2,7 @@
 
 All notable changes to PowerClick, newest first. Versions and dates follow the Mac App Store version history. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [2.5.0] - Unreleased
-
-In App Store review.
+## [2.5.0] - 2026-10-21
 
 ### Added
 
@@ -115,6 +113,7 @@ In App Store review.
 
 - First release on the Mac App Store, with New File templates, clipboard history, a snippet library and Finder right-click tools.
 
+[2.5.0]: https://github.com/atakilicov/powerclick/releases/tag/v2.5.0
 [2.2.0]: https://github.com/atakilicov/powerclick/releases/tag/v2.2.0
 [2.0.2]: https://github.com/atakilicov/powerclick/releases/tag/v2.0.2
 [2.0.1]: https://github.com/atakilicov/powerclick/releases/tag/v2.0.1

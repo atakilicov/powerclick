@@ -154,7 +154,7 @@ PowerClick is available in 23 languages: English, Spanish, German, French, Portu
 
 ## Changelog
 
-**2.5.0** is the biggest update yet: Convert, Compress for sharing, a QR toolkit with on-screen scanning, Translate and Transcribe, and ten new languages for 23 in total. It is in App Store review.
+**2.5.0** is the biggest update yet: Convert, Compress for sharing, a QR toolkit with on-screen scanning, Translate and Transcribe, and ten new languages for 23 in total. It was released on 21 October 2026.
 
 See [CHANGELOG.md](CHANGELOG.md) for the full version history, or [Releases](https://github.com/atakilicov/powerclick/releases).
 
